@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 1rem;
+}
+
+
+ul li{
+    list-style: none;
+    margin: 1rem;
+}
+
+.container{
+    margin: auto;
+    width: 90%;
+}
+
+.customer{
+    margin: auto;
+    min-height: 300px;
+    background-color: #C9ECFB;
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+
+.customer-pic{
+    width: 320px;
+    height: 320px;
+}
+
+.customer-info{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.cashback-info{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.info{
+    width: 550px;
+    min-height: 300px;
+    background-color: #DFFBC9;
+    padding: 1rem;
+}
+
+.level{
+    width: 550px;
+    height: 300px;
+    background-color: #B9EEFA;
+    padding: 1rem;
+}
+
+progress{
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+.cart{
+    margin-top: 1rem;
+    background-color: #F6F6F6;
+    padding: 1rem;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    text-align: left;
+}
+
+td{
+    padding-top: 1rem;
+}
+
+.btn-buy{
+    background-color: #333;
+    color: #F6F6F6;
+    cursor: pointer;
+    padding: .5rem 1.2rem;
+    border: none;
+    transition: .5s;
+    display: block;
+    align-items: right;
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 2rem;
+}
+
+.btn-buy:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+
+@media screen and (max-width:587px){
+    .customer{
+        justify-content: center;
+    }
+}
