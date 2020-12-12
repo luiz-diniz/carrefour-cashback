@@ -7,7 +7,6 @@ let balance = document.querySelector('.balance');
 let submit = document.querySelector('.btn-buy');
 
 submit.addEventListener('click', function(){
-
     cashbackCalc(TOTAL_VALUE.innerHTML, cashbackPercentage.innerHTML);
     levelUpdate();
 });
